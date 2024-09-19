@@ -150,7 +150,7 @@ DEFAULT_DOWNLOAD_FOLDER := "M:\_TEMP\_YT-DLP DOWNLOAD\"
 
     ; f_M("RunWait done")
 
-    Loop Files, YTDLP_FOLDER . "_TEMP\" . "*.mp4"
+    Loop Files, YTDLP_FOLDER . "_TEMP\" . "*.*"
     {
         var_TempFileFullPath := A_LoopFileFullPath
         var_TempFileName := A_LoopFileName
